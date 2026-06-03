@@ -39,15 +39,19 @@ Key aspects of the study:
  │    ├── 📁 Random_100_cropped          ← 100 randomly selected cropped test images
  │    └── 📁 Results
  │         ├── 📁 Basic_CNN_GradCam
- │         │    └── 📁 Saliency_maps     ← RGB saliency output images
+ │         │    ├── ...                  ← RGB saliency output images
+ │         │    └── 📁 Saliency_maps     
  │         ├── 📁 CheXNet_GradCam
+ │         │    ├── ...                  
  │         │    └── 📁 Saliency_maps
  │         ├── 📁 Int_Grad_CheXNet
+ │         │    ├── ...                  
  │         │    └── 📁 Saliency_maps
  │         └── 📁 Att_Roll_Basic_ViT
+ │         │    ├── ...                  
  │              └── 📁 Saliency_maps
  │
- └── model_eval.ipynb                    ← Evaluation: Insertion, Deletion, AOPC, Entropy
+ └── model_eval.ipynb                    ← Evaluation script: Insertion, Deletion, AOPC, Entropy
 ```
 
 ---
